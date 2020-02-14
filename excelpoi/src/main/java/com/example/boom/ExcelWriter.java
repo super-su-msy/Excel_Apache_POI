@@ -54,6 +54,7 @@ public class ExcelWriter {
       Cell cell = headerRow.createCell(i);
       cell.setCellValue(columns[i]);
       cell.setCellStyle(headerCellStyle);
+    //https://stackoverflow.com/questions/26020075/always-show-two-decimal-points-in-excel-cells-using-apache-poi
     }
 
     // Create Other rows and cells with contacts data
